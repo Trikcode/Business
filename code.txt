@@ -1,0 +1,21 @@
+ border: 0.25rem solid purple;
+  border-radius: 0.5rem;
+  filter: blur(8px);
+  -webkit-filter: blur(1px);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .bg-text {
+  background: transparent;
+  font-size: 30px;
+  position: absolute;
+  top: 28%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
